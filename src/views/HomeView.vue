@@ -111,7 +111,7 @@ const sizeInput = ref(24);
 
     <section class="home__section">
       <h2 class="home__title">
-        Just put your SVG Icon on
+        Just put your SVG Icons on
         <code class="code-block">src/assets/icons</code>
         <span>as simple as that ❤️</span>
       </h2>
@@ -130,7 +130,7 @@ const sizeInput = ref(24);
 
 .home__section {
   background: #eee;
-  padding: 3rem;
+  padding: 3rem 2rem;
   margin: 0 2rem;
   border-radius: 12px;
   border: 1px solid #eee;
@@ -160,24 +160,31 @@ const sizeInput = ref(24);
 
 .toolbar {
   display: flex;
-  gap: 4rem;
+  flex-wrap: wrap;
+  column-gap: 4rem;
+  row-gap: 2rem;
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
 }
 
 .input-group {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 
 .input-group__input {
-  margin-left: 0.5rem;
   height: 2rem;
   border: 1px solid rgb(219, 219, 219);
 }
 
 .input-group__input[type="number"] {
   padding: 0 0.5rem;
+}
+
+.input-group__label {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .code-block {

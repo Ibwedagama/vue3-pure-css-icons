@@ -22,7 +22,15 @@ import { RouterView } from "vue-router";
     <footer class="layout__footer">
       <h2 class="layout__subtitle">
         Clone the repo
-        <a href="" class="links"> www.google.com</a>
+        <br />
+        <a
+          href="https://github.com/Ibwedagama/vue3-pure-css-icons"
+          rel="noopener"
+          class="links"
+          title="Github Repo"
+        >
+          Ibwedagama/vue3-pure-css-icons
+        </a>
       </h2>
     </footer>
   </div>
@@ -87,5 +95,6 @@ import { RouterView } from "vue-router";
     rgba(245, 116, 185, 1) 14.7%,
     rgba(89, 97, 223, 1) 88.7%
   );
+  text-align: center;
 }
 </style>

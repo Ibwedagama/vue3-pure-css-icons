@@ -60,7 +60,6 @@ const getImageUrl = (name: string) => {
 const computedStyle = computed(() => {
   if (props.mode === "mask") {
     return {
-      display: "block",
       "background-color": props.fillColor,
       "mask-image": `url(${getImageUrl(props.icon)})`,
       "mask-size": "100% 100%",

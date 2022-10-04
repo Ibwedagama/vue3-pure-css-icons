@@ -25,6 +25,7 @@ import { RouterView } from "vue-router";
         <br />
         <a
           href="https://github.com/Ibwedagama/vue3-pure-css-icons"
+          target="_blank"
           rel="noopener"
           class="links"
           title="Github Repo"

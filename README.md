@@ -1,6 +1,8 @@
 # vue3-pure-css-icon
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue 3 Pure CSS Icons
+
+This repo is inpired by [Anthony Fu's Blog Post: Icons in Pure CSS](https://antfu.me/posts/icons-in-pure-css)
 
 ## Recommended IDE Setup
 
@@ -25,28 +27,43 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ```sh
 npm install
+
+# or using pnpm
+pnpm install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+pnpm run dev
+
+# or using pnpm
+pnpm run dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
 npm run build
+
+# or using pnpm
+pnpm run build
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
 npm run test:unit
+
+# or using pnpm
+pnpm run test:unit
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
+
+# or using pnpm
+pnpm run lint
 ```

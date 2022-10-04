@@ -1,6 +1,4 @@
-# vue3-pure-css-icon
-
-Vue 3 Pure CSS Icons
+# Vue 3 Pure CSS Icons
 
 This repo is inpired by [Anthony Fu's Blog Post: Icons in Pure CSS](https://antfu.me/posts/icons-in-pure-css)
 

@@ -14,7 +14,7 @@ import { RouterView } from "vue-router";
           rel="noopener"
           class="links"
         >
-          Anthony Fu's Blog Post: Pure CSS Icons
+          Anthony Fu's Blog Post: Icons in Pure CSS
         </a>
       </h2>
     </header>
